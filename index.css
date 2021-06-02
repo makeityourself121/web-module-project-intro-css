@@ -145,6 +145,9 @@ blockquote, q {
         background-size: cover;
         background-position: top;
     }
+    footer{
+        background-color: #F9E7DC;
+    }
    span{
        font-weight:bold;
    }
