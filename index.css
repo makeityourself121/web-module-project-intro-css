@@ -1,0 +1,153 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+
+    *{
+        box-sizing:border-box;
+        padding:0;
+        margin:0;
+        max-width:100;
+        /* border:1px solid gray;  */
+    }
+    html{
+        font-size:62.5%;
+    }
+    body{
+        font-size:1.6rem;
+        line-height: 1.5;
+        color:#4f4f4f;
+        font-family: 'Roboto Mono', monospace;
+    }
+    h1{
+        font-family: 'Chelsea Market', cursive;
+        font-size:4rem;
+    }
+    section{
+        padding:4% 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    nav{
+        padding:2% 0;
+    }
+    nav a{
+        height:60px;
+        display:inline-block;
+        padding:1% 0;
+        width:135px;
+        text-align:center;
+        border-radius: 10px;
+        color:#fff;
+        margin-left:17%;
+    }
+    .orange{
+        background-color: #FF764E;
+        /* margin-left:20%; */
+    }
+    .blue{
+        background-color:#5ED3EB ;
+        /* margin:0 14%; */
+    }
+    .yellow{
+        background-color:#FFCD69 ;
+        /* margin-right: 10%; */
+    }
+    .top{
+        position: relative;
+    }
+    .left img{
+        border-radius: 50%;
+        width:60%
+    }
+    .left, .right{
+        display:inline-block;
+        text-align:center;
+    }
+    .left{
+        width:40%;
+    }
+    .right{
+        height:200px;
+        width:45%;
+        /* position:absolute; */
+        margin-left:3%;
+        /* top:25%; */
+    }
+    .right p{
+        margin-top:2%;
+    }
+    .info{
+        background-color:#DDB9A3;
+        text-align: center;
+        color:#fff;
+        width:85%;
+        margin:auto;
+    }
+    .fire{
+        text-align:center;
+        width:40% 40%;
+        margin-top:2%;
+        font-size: 1.2rem;
+    }
+    .fire img{
+        width:20rem;
+        height:15rem;
+    }
+    .camp{
+        text-align: center;
+        margin-top:3%;
+        font-size: 1.2rem;
+    }
+    .camp img{
+        width: 20rem;
+        height:15rem;
+    }
+    .heroImg{
+        height:40vh;
+        background-image: url('assets/footer_img.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+    footer{
+        background-color: #F9E7DC;
+    }
+   span{
+       font-weight:bold;
+   }
